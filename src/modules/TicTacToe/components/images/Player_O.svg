@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Player_O</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="36.5494792%" cy="38.3398438%" fx="36.5494792%" fy="38.3398438%" r="79.358724%" id="radialGradient-1">
+            <stop stop-color="#95C23D" offset="0%"></stop>
+            <stop stop-color="#000100" offset="100%"></stop>
+        </radialGradient>
+        <path d="M670,400 C670,372.4 692.4,350 720,350 C747.6,350 770,372.4 770,400 C770,427.6 747.6,450 720,450 C692.4,450 670,427.6 670,400 Z M720,430 C736.55,430 750,416.55 750,400 C750,383.45 736.55,370 720,370 C703.45,370 690,383.45 690,400 C690,416.55 703.45,430 720,430 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-670.000000, -350.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Player_O" fill="url(#radialGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

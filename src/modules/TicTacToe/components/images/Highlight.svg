@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Highlight</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="36.5494792%" cy="38.3398438%" fx="36.5494792%" fy="38.3398438%" r="79.358724%" id="radialGradient-1">
+            <stop stop-color="#95C23D" offset="0%"></stop>
+            <stop stop-color="#000100" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="890" cy="230" r="50"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-840.000000, -180.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Highlight" fill-opacity="0.2" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

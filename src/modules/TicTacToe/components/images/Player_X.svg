@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Player_X</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="36.5494792%" cy="38.3398438%" fx="36.5494792%" fy="38.3398438%" r="79.358724%" id="radialGradient-1">
+            <stop stop-color="#95C23D" offset="0%"></stop>
+            <stop stop-color="#000100" offset="100%"></stop>
+        </radialGradient>
+        <path d="M550,180 C577.65,180 600,202.35 600,230 C600,257.65 577.65,280 550,280 C522.35,280 500,257.65 500,230 C500,202.35 522.35,180 550,180 Z M582.770822,262.770822 C585.666848,259.798585 585.666848,254.921067 582.770822,252.025041 L560.745781,230 L582.770822,207.974959 C585.743059,205.002722 585.743059,200.201415 582.770822,197.229178 C579.798585,194.256941 574.997278,194.256941 572.025041,197.229178 L550,219.254219 L527.974959,197.229178 C525.002722,194.256941 520.201415,194.256941 517.229178,197.229178 C514.256941,200.201415 514.256941,205.002722 517.229178,207.974959 L539.254219,230 L517.229178,252.025041 C514.256941,254.997278 514.256941,259.798585 517.229178,262.770822 C520.201415,265.743059 525.002722,265.743059 527.974959,262.770822 L550,240.745781 L572.025041,262.770822 C574.997278,265.743059 579.798585,265.743059 582.770822,262.770822 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-500.000000, -180.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Player_X" fill="url(#radialGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>
