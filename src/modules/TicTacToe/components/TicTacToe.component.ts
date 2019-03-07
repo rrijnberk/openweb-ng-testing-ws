@@ -21,17 +21,23 @@ export class TicTacToeComponent implements OnInit {
   }
 
   selectOption(rowIdx: number, cellIdx: number): void {
-    let result;
-    if (!this.grid.rows[rowIdx].cells[cellIdx].value) {
-      this.grid.setValue(rowIdx, cellIdx, this.service.player);
-      console.log('==>', this.service.validateGrid(this.grid))
-      switch ((result = this.service.validateGrid(this.grid))) {
-        case 'DRAW':
-        case 'WIN':
-          console.log('We have a', result)
-          this.grid = this.service.reset();
-       }
-      this.service.endTurn();
+    if (this.grid.rows[rowIdx].cells[cellIdx].value) {
+      return;
+    }
+
+    this.grid.setValue(rowIdx, cellIdx, this.service.player);
+    this.validateGrid();
+  }
+
+  private validateGrid() {
+    switch (this.service.validateGrid(this.grid)) {
+      case 'DRAW':
+      case 'WIN':
+        this.grid = this.service.reset();
+        break;
+      default:
+        this.service.endTurn();
     }
   }
+
 }

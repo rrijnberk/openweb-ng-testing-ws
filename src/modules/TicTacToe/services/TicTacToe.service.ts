@@ -35,7 +35,7 @@ export class TicTacToeService {
       .map(coordinates => grid.readLine(coordinates, {row: 0, column: 1}))
       .map(row => row.join(''));
 
-    return !!(rowValues.find(value => value === 'XXX') || rowValues.find(value => value === 'OOO'));
+    return !!(rowValues.find(value => value === 'XXX') || rowValues.find(value => value === 'OOOO'));
   }
 
   private hasWinningColumn(grid: TicTacToeGrid): boolean {
@@ -48,7 +48,7 @@ export class TicTacToeService {
   }
 
   private hasWinningDiagonal(grid: TicTacToeGrid): boolean {
-    // TODO: Task: Implement a test that proves
+    // TODO: Task: Implement a test before writing the implementation. Dont forget to triangulate
     return false;
   }
 
