@@ -4,9 +4,9 @@ export class TicTacToeCell {
   get className() {
     switch (this.value) {
       case 'X':
-        return 'fa fa-times';
+        return 'selected selected__player-x';
       case 'O':
-        return 'far fa-circle';
+        return 'selected selected__player-o';
       default:
         return '';
     }

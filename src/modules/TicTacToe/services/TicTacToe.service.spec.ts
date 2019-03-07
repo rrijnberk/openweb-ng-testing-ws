@@ -6,7 +6,7 @@ describe('TicTacToeService', () => {
 
   beforeEach(() => {
     service = new TicTacToeService();
-  })
+  });
 
   it('returns X as the default player', () => {
     expect(service.player).toEqual('X');

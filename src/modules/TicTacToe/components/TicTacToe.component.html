@@ -1,1 +1,7 @@
-{{selected === 'x' ? '❌' : selected === 'o' ? '⭕'️ : ''}}
+<div class="t3-grid">
+  <div class="t3-grid__row" *ngFor="let row of grid.rows; let rowIdx = index;">
+    <div *ngFor="let cell of row.cells; let cellIdx = index;"
+         class="t3-grid__cell {{cell.className}}" (click)="selectOption(rowIdx, cellIdx)">
+    </div>
+  </div>
+</div>
