@@ -1,6 +1,6 @@
 import {TicTacToeService} from './TicTacToe.service';
 import {TicTacToeGrid} from '../Models/TTT_Grid.model';
-import {tripleOColumn2, tripleXRow1} from './test/TicTacToe.service.spec.constants';
+import {readyForNext, tripleOColumn2, tripleXRow1} from './test/TicTacToe.service.spec.constants';
 
 
 describe('TicTacToeService', () => {
@@ -29,8 +29,8 @@ describe('TicTacToeService', () => {
   });
 
   it('returns next if there are moves left and there is no winner', () => {
-    grid.rows = tripleXRow1;
-    expect(service.validateGrid(grid)).toEqual('WIN');
+    grid.rows = readyForNext;
+    expect(service.validateGrid(grid)).toEqual('NEXT');
 
   });
 

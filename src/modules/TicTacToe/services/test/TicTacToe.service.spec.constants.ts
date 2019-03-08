@@ -1,5 +1,8 @@
 import {TicTacToeRow} from '../../Models/TTT_Row.model';
 
+export const readyForNext = generateRows('x|o| ', ' |x|o', 'x|o| ');
+
+
 export const tripleOColumn2 = generateRows('x|o|x', ' |o|o', 'x|o| ');
 
 export const tripleXRow1 = generateRows('x|x|x', 'o| |o', ' | | ');
